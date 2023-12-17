@@ -261,7 +261,7 @@ const App = () => {
 
 그렇다면 `startTransition()`은 무슨 상태 업데이트를 일으키기 위해 사용될까요? `startTransition()`을 사용하는 부분을 보시면 모두 `setFibNum()`을 사용하여 `fibNum`을 업데이트하는 동작을 실행하고 있습니다. `fibNum`을 업데이트한다는 건, 즉 피보나치 수열을 다시 계산해서 표시되는 결과가 업데이트된다는 뜻이죠. 이걸 `startTransition()`에 넣음으로써 어떤 차이가 생기게 될까요? `startTransition()` 사용이 만들어 내는 차이를 보여 드리기 위해, `startTransition()`을 사용하지 않은 버전과 동작을 비교해 보겠습니다.
 
-![](https://velog.velcdn.com/images/xiniha/post/8142e125-94e2-4798-8d2b-168aa123225a/image.webp align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702821275842/daeb089a-75de-4e72-8d43-a5f7eacea8b2.webp align="left")
 
 * `startTransition()`을 사용하지 않은 버전은 버튼을 누르면 아무 동작 없이 앱이 잠시 동안 멈췄다가, 계산이 끝나면 카운터의 숫자와 아래 결과 숫자가 함께 업데이트됩니다.
     
