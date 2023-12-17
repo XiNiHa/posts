@@ -2,7 +2,7 @@
 title: "React Suspense 알아보기"
 datePublished: Mon May 16 2022 03:34:25 GMT+0000 (Coordinated Universal Time)
 cuid: clq9qyeqo000008ld7qsngv5e
-slug: react-suspense
+slug: react-suspense-overview
 canonical: https://velog.io/@xiniha/React-Suspense-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
 tags: javascript, reactjs
 
